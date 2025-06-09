@@ -9,6 +9,7 @@ import { ScrollReveal, StaggerReveal } from "@/components/scroll-animations"
 import { MagneticButton } from "@/components/magnetic-button"
 import { ArrowRight, Target, Users, Award, Globe } from "lucide-react"
 import { useRouter } from "next/navigation"
+import '../styles/globals.css';   
 
 const stats = [
   { number: "500+", label: "Projects Completed", icon: <Target className="w-6 h-6" /> },
